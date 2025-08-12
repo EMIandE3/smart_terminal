@@ -1,0 +1,80 @@
+QListWidget {
+font-size: 30px;
+outline:none;
+}
+
+QListWidget::item:active {
+background: transparent;
+}
+
+QListWidget::item {
+height:80;
+}
+
+QListWidget::item:selected:hover {
+background:#22222222;
+}
+
+QListWidget::item:selected {
+background:transparent;
+color:#ee222222;
+}
+
+QPushButton#addAlarm {
+border-image:url(:/images/sqlClock_pic/addalarm1.png);
+}
+
+QPushButton#addAlarm:hover {
+border-image:url(:/images/sqlClock_pic/addalarm2.png);
+}
+
+QPushButton#yesButton {
+border: 1px solid #22222222;
+border-radius: 25px;
+background:#22222222;
+outline:none;
+}
+
+QPushButton#yesButton:pressed {
+background:#44222222;
+color:white;
+}
+
+QPushButton#cancelButton {
+border: 1px solid #22222222;
+border-radius: 25px;
+background:#22222222;
+outline:none;
+}
+
+QPushButton#cancelButton:pressed {
+background:#44222222;
+color:white;
+}
+
+QScrollBar:vertical {
+width:30px;
+background:rgba(255, 255, 255, 100%)
+}
+
+QScrollBar::handle:vertical {
+width:30px;
+background:rgba(200, 200, 200, 20%);
+border-radius:15px;
+}
+
+QScrollBar::add-line:vertical {
+width:0px; height:0px;
+}
+QScrollBar::sub-line:vertical {
+width:0px;
+height:0px;
+}
+QScrollBar::handle:vertical:hover {
+width:30px;
+background:rgba(200, 200, 200, 80%);
+border-radius:15px;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical {
+background:rgba(255, 255, 255, 100%)
+}
